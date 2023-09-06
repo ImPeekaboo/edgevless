@@ -105,16 +105,16 @@ function SetUpAlert() {
           />
         </div>
         <div className="ml-3">
-          <h3 className="text-sm font-medium text-yellow-800">请注意！</h3>
+          <h3 className="text-sm font-medium text-yellow-800">please note！</h3>
           <div className="mt-2 text-sm text-yellow-700">
             <p>
-              如果遇到连不上网的情况, 请查看/参考具体客户端的 &nbsp;
+              If you are unable to connect to the Internet, please check/refer to the specific client's &nbsp;
               <a
                 target="_blank"
                 href="https://github.com/zizifn/edgetunnel#%E5%AE%A2%E6%88%B7%E7%AB%AF-v2rayn-%E9%85%8D%E7%BD%AE"
                 className="font-medium text-yellow-700 underline hover:text-yellow-600"
               >
-                DNS 相关设置。
+                DNS Related Settings。
               </a>
             </p>
           </div>
@@ -160,10 +160,10 @@ function ShareNotifications({
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
                     <p className="text-sm font-medium text-gray-900">
-                      分享成功！
+                      Sharing Success！
                     </p>
                     <p className="mt-1 text-sm text-red-500">
-                      请不要随意泄露分享链接！！
+                      Please don't give away the shared links！！
                     </p>
                   </div>
                   <div className="flex flex-shrink-0 ml-4">
@@ -214,7 +214,7 @@ function QRcodeImg({ text }: { text: string }) {
         src={codeImg}
         width="350"
         height="350"
-        alt="二维码"
+        alt="barcode"
         className="border-spacing-1"
       />
       <div className="flex flex-grow w-auto bg-gray-200">
@@ -270,7 +270,7 @@ function ShareAnything({
         htmlFor="comment"
         className="block text-sm font-medium text-gray-700"
       >
-        随意要分享的内容.
+        Feel free to share as much as you want.
       </label>
       <div className="mt-1">
         <textarea
@@ -288,7 +288,7 @@ function ShareAnything({
           type="submit"
           className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-transparent rounded-md shadow-sm hover:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
-          分享
+          Share
         </button>
       </div>
     </div>
@@ -344,7 +344,7 @@ function ShareActions({
         type="button"
         className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
-        分享 V2ray
+        Share V2ray
       </button>
 
       <button
@@ -352,7 +352,7 @@ function ShareActions({
         type="button"
         className="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-l-md hover:border-indigo-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
       >
-        分享本页
+        Share this page
       </button>
     </span>
   );
@@ -371,7 +371,7 @@ function Warning() {
         <div className="ml-3">
           <h3 className="text-sm font-medium text-red-700">注意！！</h3>
           <div className="mt-2 text-sm text-red-700">
-            <p>泄露本页面就等于泄露你的设置。</p>
+            <p>Leaking this page is the same as leaking your settings。</p>
           </div>
         </div>
       </div>
