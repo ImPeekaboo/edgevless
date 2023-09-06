@@ -105,10 +105,10 @@ function SetUpAlert() {
           />
         </div>
         <div className="ml-3">
-          <h3 className="text-sm font-medium text-yellow-800">please note！</h3>
+          <h3 className="text-sm font-medium text-yellow-800">Warning！</h3>
           <div className="mt-2 text-sm text-yellow-700">
             <p>
-              If you are unable to connect to the Internet, please check/refer to the specific client's &nbsp;
+              If you can't connect to the Internet, please check/refer to the specific client &nbsp;
               <a
                 target="_blank"
                 href="https://github.com/zizifn/edgetunnel#%E5%AE%A2%E6%88%B7%E7%AB%AF-v2rayn-%E9%85%8D%E7%BD%AE"
@@ -160,10 +160,10 @@ function ShareNotifications({
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
                     <p className="text-sm font-medium text-gray-900">
-                      Sharing Success！
+                      Share Success！
                     </p>
                     <p className="mt-1 text-sm text-red-500">
-                      Please don't give away the shared links！！
+                      Please don't share the link！！
                     </p>
                   </div>
                   <div className="flex flex-shrink-0 ml-4">
@@ -270,7 +270,7 @@ function ShareAnything({
         htmlFor="comment"
         className="block text-sm font-medium text-gray-700"
       >
-        Feel free to share as much as you want.
+        You can share as much as you want.
       </label>
       <div className="mt-1">
         <textarea
@@ -369,9 +369,9 @@ function Warning() {
           />
         </div>
         <div className="ml-3">
-          <h3 className="text-sm font-medium text-red-700">注意！！</h3>
+          <h3 className="text-sm font-medium text-red-700">Warning！！</h3>
           <div className="mt-2 text-sm text-red-700">
-            <p>Leaking this page is the same as leaking your settings。</p>
+            <p>Leak this page is mean you leak your settings.</p>
           </div>
         </div>
       </div>
